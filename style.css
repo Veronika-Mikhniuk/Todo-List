@@ -1,0 +1,55 @@
+.container {
+    max-width: 960px;
+    box-shadow: 0px 13px 35px rgba(0, 0, 0, .08);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.todo-block {
+    max-width: 700px;
+    margin: auto;
+}
+
+.todo-block__wrapper {
+    border: rgba(170, 169, 169, 0.5) solid 1px;
+    border-radius: 4px;
+    background-color: rgba(128, 128, 128, 0.082);
+}
+
+.form-check-input {
+    width: 40px;
+    height: 25px;
+}
+
+.form-check-input:checked {
+    background-color: #198754;
+    border-color: #198754;
+}
+
+.form-check-input:checked[type="checkbox"] {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3e%3cpath fill='none' stroke='%23fff' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M6 10l3 3l6-6'/%3e%3c/svg%3e");
+}
+
+.todo__text {
+    border: rgba(170, 169, 169, 0.5) solid 1px;
+    border-radius: 4px;
+    text-align: center;
+    background-color: white;
+}
+
+.todo__date {
+    text-align: end;
+}
+
+.crossed {
+    text-decoration: line-through;
+    color: gray;
+}
+
+.done-todo {
+    background-color: rgba(128, 128, 128, 0.185)
+}
+
+.d-none {
+    display: none;
+}
